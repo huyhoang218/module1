@@ -4,21 +4,24 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <style>
-        .font{
-            font: bold italic large serif;
+        body{
+            font: "sans-serif";
+        }
+        select{
+            width: 20%;
         }
     </style>
 </head>
 
 <body>
     <h2>Order Form</h2>
-    <p class="font">What would you like to buy?</p>
+    <p>What would you like to buy?</p>
         <select name="drink" id="">
             <option value="cf">Coffe</option>
             <option value="tea">Tea</option>
             <option value="wt">water</option>
         </select>
-    <p class="font">How many would you like to order?</p>
+    <p>How many would you like to order?</p>
     <input type="radio" name="radio">1 - $10 <br>
     <input type="radio" name="radio">2 -$20 <br>
     <input type="radio" name="radio">3 -$30 <br>
@@ -33,7 +36,7 @@
     <p>Phone number</p>
     <input type="text" name="phone" size="5"> -
     <input type="text" name="phone" size="5"> -
-    <input type="text" name="phone" size="5">
-    <input type="button" name="button" value="Submit">
+    <input type="text" name="phone" size="5"> <br>
+    <br><input type="button" name="button" value="Submit">
 </body>
 </html>

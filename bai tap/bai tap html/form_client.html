@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create form client</title>
+    <style>
+        p{
+            font-weight: bold;
+        }
+        .table_features {
+            border: 1px solid lightslategray;
+            border-collapse: collapse;
+            background: lightgray;
+            width: 100%;
+
+        }
+        .td2 {
+            border: 1px solid lightslategray;
+            text-align: center;
+        }
+        th{
+            border: 1px solid lightslategray;
+        }
+    </style>
+</head>
+<body>
+<h1>Market Research Survey</h1>
+<p>Please take a few moments to complete this satisfaction survey.</p>
+<p>What is your age range?</p>
+<form action="">
+    <select name="age" id="choose age" style="width: 50%">
+        <option value="18-24">18-24</option>
+        <option value="25-34">25-34</option>
+        <option value="35-50">35-50</option>
+        <option value="50+">50+</option>
+    </select>
+</form>
+<p>What is your yearly income range?</p>
+<form>
+    <select name="" id="age" style="width: 50%">
+        <option value="">$0 - $25000</option>
+        <option value="">$25001 - $50000</option>
+        <option value="">$50001 - &10000</option>
+        <option value="">$10000+</option>
+    </select>
+</form>
+<p>Gender Identity</p>
+<form action="">
+    <input type="radio" value="mal" name="gender" id="male">Male <br>
+    <input type="radio" value="fem" name="gender" id="female">Female <br>
+    <input type="radio" value="non" name="gender" id="nonbinary">Nonbinary <br>
+    <input type="radio" value="oth" name="gender" id="other">Other
+</form>
+<p>Which of the following products have your purchased in the last 2 months. Please check all that apply.</p>
+<form action="">
+    <input type="checkbox" name="product1">Product 1 <br>
+    <input type="checkbox" name="product2">Product 2 <br>
+    <input type="checkbox" name="product3">Product 3 <br>
+</form>
+<p>How often would you use our new product?</p>
+<form action="">
+    <input type="radio" name="time">Daily <br>
+    <input type="radio" name="time">Weekly <br>
+    <input type="radio" name="time">Monthly <br>
+</form>
+<p>What would you pay for the new product?</p>
+
+<form action="">
+    <table>
+        <tr>
+            <td>$</td>
+            <td>
+                <input type="text" name="dollars" style="width: 70px" >
+            </td>
+            <td>.</td>
+            <td>
+                <input type="text" name="cents" style="width: 10px">
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <span>Dollars</span>
+            </td>
+            <td></td>
+            <td>
+                <span>Cents</span>
+            </td>
+        </tr>
+    </table>
+</form>
+<p>What features would you like to see in the new product.</p>
+<form action="">
+    <textarea name="mess" id="" cols="100" rows="10"></textarea>
+</form>
+<p>What features would you like to see in the new product</p>
+</body>
+<table class="table_features">
+    <tr>
+        <th></th>
+        <th style="width: 15%" >Strongly Disagree</th>
+        <th style="width: 15%">Disagress</th>
+        <th style="width: 15%">Agree</th>
+        <th style="width: 15%">Strongly Agree</th>
+    </tr>
+    <tr style="background: white">
+        <form action="">
+            <td class="td2">Our products are priced fairly</td>
+            <td class="th2"><input type="radio" name="priced"> <br>1</td>
+            <td class="td2"><input type="radio" name="priced"> <br>2</td>
+            <td class="td2"><input type="radio" name="priced"> <br>3</td>
+            <td class="td2"><input type="radio" name="priced" > <br>4</td>
+        </form>
+
+    </tr>
+    <tr>
+        <form action="">
+            <td class="td2">Our products are high faily</td>
+            <td class="td2"><input type="radio" name="priced"> <br>1</td>
+            <td class="td2"><input type="radio" name="priced"> <br>2</td>
+            <td class="td2"><input type="radio" name="priced_"> <br>3</td>
+            <td class="td2"><input type="radio" name="priced"> <br>4</td>
+        </form>
+    </tr>
+    <tr style="background: white">
+        <form action="">
+            <td class="td2">You would recommend our product to a friend or coworker</td>
+            <td class="td2"><input type="radio" name="priced"> <br>1</td>
+            <td class="td2"><input type="radio" name="priced"> <br>2</td>
+            <td class="td2"><input type="radio" name="priced"> <br>3</td>
+            <td class="td2"><input type="radio" name="price"> <br>4</td>
+        </form>
+    </tr>
+</table>
+<br>
+<input type="submit" name="submit">
+</html>

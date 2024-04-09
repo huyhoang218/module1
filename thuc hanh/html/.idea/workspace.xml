@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="abf9f23c-62e6-4c42-a972-61f4f39c8beb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../../bai tap/bai tap html/create form basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../bai tap/bai tap html/create form basic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../tt_html/table_simple.html" beforeDir="false" afterPath="$PROJECT_DIR$/../tt_html/table_simple.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../tt_js/th_display_output.js" beforeDir="false" afterPath="$PROJECT_DIR$/../tt_js/th_display_output.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../tt_js/th_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../tt_js/th_index.html" afterDir="false" />
@@ -64,7 +63,7 @@
       <workItem from="1712559172193" duration="10277000" />
       <workItem from="1712578606371" duration="6526000" />
       <workItem from="1712626029504" duration="3342000" />
-      <workItem from="1712640408857" duration="1398000" />
+      <workItem from="1712640408857" duration="1721000" />
     </task>
     <servers />
   </component>
