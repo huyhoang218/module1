@@ -30,7 +30,7 @@
         <td><button value="*" onclick="displayValue('*')">x</button></td>
     </tr>
     <tr>
-        <td><button>C</button></td>
+        <td><button onclick="clean()">C</button></td>
         <td><button value="0" onclick="displayValue(0)" name="num">0</button></td>
         <td><button onclick="result()" value="=" name="result">=</button></td>
         <td><button value="/" onclick="displayValue('/')">/</button></td>
@@ -45,6 +45,9 @@
     function result(){
         let result = eval(document.getElementById('print').value)
         document.getElementById('print').value = result
+    }
+    function clean(){
+        document.getElementById('print').value = ""
     }
 </script>
 </body>
