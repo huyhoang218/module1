@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table id="butt">
+    <tr>
+        <td><input type="button" onclick="moveRight()" style="position: absolute; left: 100px; top: 100px"></td>
+        <td style="position: absolute; left: 150px; top: 100px;">Good</td>
+    </tr>
+    <tr>
+        <td><input type="button" style="position: absolute; left: 100px; top: 130px"></td>
+        <td style="position: absolute; left: 150px; top: 130px">Cheap</td>
+    </tr>
+    <tr>
+        <td><input type="button" style="position: absolute; left: 100px; top: 160px"></td>
+        <td style="position: absolute; left: 150px; top: 160px">Fast</td>
+    </tr>
+</table>
+<script>
+    function init(){
+        let move = document.getElementById('butt')
+        move.style.position='relative'
+        move.style.left = '150px'
+    }
+    function moveRight(){
+        let move = document.getElementById('butt')
+        move.style.left = parseInt(move.style.left) + 10 + 'px'
+    }
+    window.onload = init()
+</script>
+</body>
+</html>
